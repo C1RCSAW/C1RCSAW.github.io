@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "MTA Subway CLI in Ruby"
-date:       2018-02-01 01:25:14 +0000
+date:       2018-01-31 20:25:15 -0500
 permalink:  mta_subway_cli_in_ruby
 ---
 
