@@ -151,8 +151,8 @@ class UsersController < ApplicationController
     end
   end
 	...
-	end
-	```
+end
+ ```
 	
 	In ActiveRecord validations are triggered whenever a new obect gets pushed to be saved in the database. Most commonly this is accomplised with #create, #save or #update. each of these have different behaviors with our objects but they all trigger ActiveRecord validations if they are present on the Class they are called on. 
 
@@ -161,6 +161,7 @@ class UsersController < ApplicationController
 In our post '/signup' route and action, we are first creating a new instance of a user with the user entered data from the form that was stored in the params hash. note we are using #new instead of #create. If #create was used, the data would both be used to create our new instance AND push a new row to our users table in the database. This would also trigger our validations and either fail or be a success. If create is a success then great, the user did what we were expecting and the application can move on to the next thing. however, we want to hold on to the errors if there were any, so we need to split this process into two parts to both hold onto the errors if there will be any AND allow for an if statement to provide flow control to our application. We are talking about code in a controller after all. Using #new here allows this to be split up we can hold onto an instance of our User class and trigger validations with #save on that instance later in the if statement.
 
 Just like our previous example with user login validation, we dont want to send a redirect to the server, we would lose our error information. therefore if @user.save fails validation and returns false, we want to render erb: 'users/create_user' so we can access the validation errors and display them to the user in the browser with a View. 
+
 
 ```
 <h1>Sign Up for an Account</h1>
@@ -176,7 +177,10 @@ Just like our previous example with user login validation, we dont want to send 
   <p> Password: <input type="text" name="password" value=""> </p>
   <p> <input type="submit" name="" value="Sign Up"> </p>
 </form>
+
 ```
+
+
 Hence we have closed the MVC loop on displaying validation errors to our user through thier browser. The errors will only display in the view of this form if theres a @user variable that has been set AND that @user instance failed to be saved thus containing errors. If this is the case the form will then iterate through the errors one by one and display them with full_messages with a line break between each one so they can be more easily read instead of wrapped together in a run on string. An example of the output of this re rendered form with errors woud look like this:
 
 ![](https://imgur.com/SarSJdR)
