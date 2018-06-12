@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Displaying Form Entry Errors to the User Through a View with Sinatra!"
-date:       2018-06-12 00:49:58 +0000
+date:       2018-06-11 20:49:59 -0400
 permalink:  displaying_form_entry_errors_to_the_user_through_a_view_with_sinatra
 ---
 
@@ -179,7 +179,7 @@ Just like our previous example with user login validation, we dont want to send 
 ```
 Hence we have closed the MVC loop on displaying validation errors to our user through thier browser. The errors will only display in the view of this form if theres a @user variable that has been set AND that @user instance failed to be saved thus containing errors. If this is the case the form will then iterate through the errors one by one and display them with full_messages with a line break between each one so they can be more easily read instead of wrapped together in a run on string. An example of the output of this re rendered form with errors woud look like this:
 
-![](https://imgur.com/a/UEyEqtP)
+![](https://imgur.com/SarSJdR)
 
 This is of course a simple example. The embedded ruby in the form used to display the validation errors if they are present could be sandwiched in your own custom div class and styled with CSS. the possibilites are, well, endless. Hope you find this post helpful in generating your own lightweight, interactive app using Sinatra! happy coding!
 
