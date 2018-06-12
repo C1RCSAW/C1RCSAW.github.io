@@ -1,0 +1,21 @@
+# Site settings
+title: Woodworker to Developer: A Journey
+header-img: img/home-bg.png
+email: bytnarb2@gmail.com
+copyright_name: C1RCSAW
+description: > # this means to ignore newlines until "baseurl:"
+  Learn to code with me
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  C1RCSAW
+learn_profile: C1RCSAW
+email_username: bytnarb2@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
