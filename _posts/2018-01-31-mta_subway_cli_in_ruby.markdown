@@ -32,12 +32,9 @@ def self.get_lines
     end
     all
   end
-	
-	the additional segement of code added to the loop would evoke a new Line object on each iteration of the loop and assign it attributes using the scrapper methods I had written for the class as well as save each occurance of a line object using my save class method to retain the collection of Line objects in an array for use later in the CLI. 
-	
-this is just one example of where I woud reach what I thought was a dead end but eventually would find a different direction or solution throug consulting not only the material from learn and ruby docs but also the larger ruby community. the world of ruby gems is populated with many lovely bits of code to add to your programs as well as consult as examples to see other programmers coding style. a simple example is "colorize" which allows one to add some text color to your ruby CLI for some design points. I also came across a similar repository of github that helped me solve some of my scraping issues that scraped a site using xml tags rather than css tags.  I couldnt seem to get drilled down to where i wanted using just css tags. As I learn more I imagine I could even come back and utilize more efficient css selectors. so instead of using doc.css() on the Nokogiri object I used doc.xpath("//name") for instance to scrape the names for all the subway lines. 
 
-To explore more of the code I came up for this project check out
-		
+	the additional segement of code added to the loop would evoke a new Line object on each iteration of the loop and assign it attributes using the scrapper methods I had written for the class as well as save each occurance of a line object using my save class method to retain the collection of Line objects in an array for use later in the CLI.
 
-https://github.com/C1RCSAW/nyc_subway_status
+this is just one example of where I woud reach what I thought was a dead end but eventually would find a different direction or solution throug consulting not only the material from learn and ruby docs but also the larger ruby community. the world of ruby gems is populated with many lovely bits of code to add to your programs as well as consult as examples to see other programmers coding style. a simple example is "colorize" which allows one to add some text color to your ruby CLI for some design points. I also came across a similar repository of github that helped me solve some of my scraping issues that scraped a site using xml tags rather than css tags.  I couldnt seem to get drilled down to where i wanted using just css tags. As I learn more I imagine I could even come back and utilize more efficient css selectors. so instead of using doc.css() on the Nokogiri object I used doc.xpath("//name") for instance to scrape the names for all the subway lines.
+
+Explore more of the code I came up for this project [Here](https://github.com/C1RCSAW/nyc_subway_status)
