@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:      "Displaying Form Entry Errors to the User Through a View with Sinatra!"
 date:       2018-06-11 20:49:59 -0400
 permalink:  displaying_form_entry_errors_to_the_user_through_a_view_with_sinatra
