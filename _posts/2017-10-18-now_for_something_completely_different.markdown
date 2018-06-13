@@ -12,8 +12,6 @@ One of the most attractive things about wookworking for me is problem solving, l
 
 Fast forward to the present. One of my good woodworking friends, we took a class with Roy Underhill together, works professionally as a web developer building RESTful apps. He has a great way of explaining things to a point where entry to web developer world seemed possible through hard work and practice. "Where can I get this?" I asked him. "Well there are bootcamps." he replied. So I began to look into online bootcamps to learn how to code. It seemed to be a skill that would link my interests in design, problem solving and previous experience working with geographic data!
 
-Now I find myself working through the online bootcamp curriculum at the Flatiron School. So far it has been a positive experience through the online and in person community at the Flatiron campus in Manhattan. Even now I am writing this blog post surrounded by other students in my programming working together to learn the skills of a web developer. 
+Now I find myself working through the online bootcamp curriculum at the Flatiron School. So far it has been a positive experience through the online and in person community at the Flatiron campus in Manhattan. Even now I am writing this blog post surrounded by other students in my programming working together to learn the skills of a web developer.
 
 Here's to the next step! In future posts I hope to share some of my learning experiences and projects along my journey. stay tuned!
-
-https://www.bytnarwoodworks.com/blog/2017/10/18/now-for-something-completely-different
