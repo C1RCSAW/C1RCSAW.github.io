@@ -4,8 +4,6 @@ title:      "Displaying Form Entry Errors to the User Through a View with Sinatr
 date:       2018-06-11 20:49:59 -0400
 permalink:  displaying_form_entry_errors_to_the_user_through_a_view_with_sinatra
 ---
-#Displaying Form Entry Errors to the User Through a View with Sinatra
-
 ## or authentication and validation errors off the "rubyonrails"
 
 ### Or how I built a Custom Furniture Project Manager for Makers Using Sinatra
